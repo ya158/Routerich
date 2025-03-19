@@ -1,3 +1,5 @@
+#!/bin/sh
+
 touch /etc/led_off.sh & chmod +x /etc/led_off.sh
 echo 'sleep 20'>/etc/led_off.sh
 echo 'echo none >> /sys/class/leds/blue:power/trigger'>>/etc/led_off.sh
