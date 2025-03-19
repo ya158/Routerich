@@ -11,5 +11,5 @@ uci set network.NetBird.proto='none'
 uci set network.NetBird.device='wt0'
 uci commit
 
-uci set firewall.@zone[0].network='NetBird'
+uci add_list firewall.@zone[0].network='NetBird'
 uci commit firewall
