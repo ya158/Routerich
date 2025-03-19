@@ -2,7 +2,7 @@
 
 opkg update
 opkg install netbird
-netbird login --setup-key 772B22F0-983E-437E-AF90-F670506DCAC5
+netbird login --setup-key F7CF6878-ABA8-430C-A0C5-F9CA95743C0F
 /etc/init.d/netbird enable
 /etc/init.d/netbird start
 uci -q delete network.NetBird
