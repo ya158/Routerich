@@ -1,6 +1,7 @@
 #!/bin/ash
 
 opkg update
+opkg install telegram
 opkg install modeminfo-telegram
 opkg install luci-i18n-telegrambot
 opkg install luci-i18n-telegrambot-ru
