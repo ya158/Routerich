@@ -6,3 +6,4 @@ wget --no-check-certificate -O /tmp/NetBird.sh https://raw.githubusercontent.com
 wget --no-check-certificate -O /tmp/TorrServer.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/TorrServer.sh && chmod +x /tmp/TorrServer.sh && /tmp/TorrServer.sh && rm -f /tmp/TorrServer.sh
 wget --no-check-certificate -O /tmp/TelegramBot.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/TelegramBot.sh && chmod +x /tmp/TelegramBot.sh && /tmp/TelegramBot.sh && rm -f /tmp/TelegramBot.sh
 wget --no-check-certificate -O /tmp/luciYoutubeUnblock.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/luciYoutubeUnblock.sh && chmod +x /tmp/luciYoutubeUnblock.sh && /tmp/luciYoutubeUnblock.sh && rm -f /tmp/luciYoutubeUnblock.sh
+wget --no-check-certificate -O /tmp/ftp.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/ftp.sh && chmod +x /tmp/ftp.sh && /tmp/ftp.sh && rm -f /tmp/ftp.sh
