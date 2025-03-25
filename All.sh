@@ -7,3 +7,4 @@ wget --no-check-certificate -O /tmp/TorrServer.sh https://raw.githubusercontent.
 wget --no-check-certificate -O /tmp/TelegramBot.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/TelegramBot.sh && chmod +x /tmp/TelegramBot.sh && /tmp/TelegramBot.sh && rm -f /tmp/TelegramBot.sh
 wget --no-check-certificate -O /tmp/luciYoutubeUnblock.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/luciYoutubeUnblock.sh && chmod +x /tmp/luciYoutubeUnblock.sh && /tmp/luciYoutubeUnblock.sh && rm -f /tmp/luciYoutubeUnblock.sh
 wget --no-check-certificate -O /tmp/ftp.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/ftp.sh && chmod +x /tmp/ftp.sh && /tmp/ftp.sh && rm -f /tmp/ftp.sh
+wget --no-check-certificate -O /tmp/minidlna.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/minidlna.sh && chmod +x /tmp/minidlna.sh && /tmp/minidlna.sh && rm -f /tmp/minidlna.sh
