@@ -6,7 +6,7 @@ service zerotier restart
 # Create interface
 uci set network.ZeroTier=interface
 uci set network.ZeroTier.proto='none'
-uci set network.ZeroTier.device='ztXXXXXXXX' # Replace ztXXXXXXXX with your own ZeroTier interface name
+uci set network.ZeroTier.device='zth6rioq64' # Replace ztXXXXXXXX with your own ZeroTier interface name
 
 # Create zone
 uci add firewall zone
