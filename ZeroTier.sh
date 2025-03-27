@@ -1,7 +1,10 @@
-uci add_list zerotier.mynet.join=<network_id>
-uci set zerotier.mynet.enabled='1'
+uci set zerotier.sample_config=zerotier
+uci set zerotier.sample_config.join='ebe7fbd4457c9799'
+uci set zerotier.sample_config.enabled='1'
+uci set zerotier.sample_config.nat='1'
 uci commit zerotier
-service zerotier restart
+
+#service zerotier restart
 
 # Create interface
 uci set network.ZeroTier=interface
@@ -29,4 +32,4 @@ uci set firewall.@forwarding[-1].dest='vpn'
 # Commit changes
 uci commit
 
-/etc/init.d/firewall restart
+#/etc/init.d/firewall restart
