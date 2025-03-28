@@ -13,8 +13,8 @@ uci set transmission.@transmission[0].config_dir='/etc/transmission'
 uci set transmission.@transmission[0].incomplete_dir='/mnt/sda2/transmission/incomplete'
 uci set transmission.@transmission[0].incomplete_dir_enabled='true'
 /etc/init.d/transmission disable
-sed -i -e 'sleep 40 && nice -n 10 /etc/init.d/transmission start &' /etc/rc.local
 
+sed -i '$i sleep 40 && nice -n 10 /etc/init.d/transmission start &' /etc/rc.local
 uci commit transmission
 service transmission restart
 nice -n 10 /etc/init.d/transmission start
