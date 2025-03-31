@@ -9,4 +9,4 @@ echo 'echo none | tee /sys/class/leds/blue:lan-1/trigger /sys/class/leds/blue:la
 echo 'echo 0 >> /sys/class/leds/blue:lan-1/brightness'>>/etc/led_off.sh
 echo 'echo 0 >> /sys/class/leds/blue:lan-2/brightness'>>/etc/led_off.sh
 echo 'echo 0 >> /sys/class/leds/blue:lan-3/brightness'>>/etc/led_off.sh
-sed -i '$i /etc/led_off.sh &' /etc/rc.local
+sed -i '$i sh /etc/led_off.sh &' /etc/rc.local
