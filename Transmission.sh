@@ -12,6 +12,9 @@ uci set transmission.@transmission[0].download_dir='/mnt/sda2/Torrent'
 uci set transmission.@transmission[0].config_dir='/etc/transmission'
 uci set transmission.@transmission[0].incomplete_dir='/mnt/sda2/transmission/incomplete'
 uci set transmission.@transmission[0].incomplete_dir_enabled='true'
+chown -R transmission:transmission /mnt/sda2/Torrent
+chown -R transmission:transmission /mnt/sda2/transmission
+chown -R transmission:transmission /mnt/sda2
 /etc/init.d/transmission disable
 
 sed -i '$i sleep 40 && nice -n 10 /etc/init.d/transmission start &' /etc/rc.local
