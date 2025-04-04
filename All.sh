@@ -10,3 +10,4 @@ wget --no-check-certificate -O /tmp/luciYoutubeUnblock.sh https://raw.githubuser
 wget --no-check-certificate -O /tmp/ftp.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/ftp.sh && chmod +x /tmp/ftp.sh && /tmp/ftp.sh && rm -f /tmp/ftp.sh
 wget --no-check-certificate -O /tmp/minidlna.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/minidlna.sh && chmod +x /tmp/minidlna.sh && /tmp/minidlna.sh && rm -f /tmp/minidlna.sh
 # wget --no-check-certificate -O /tmp/Transmission.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/Transmission.sh && chmod +x /tmp/Transmission.sh && /tmp/Transmission.sh && rm -f /tmp/Transmission.sh
+wget --no-check-certificate -O /tmp/qbittorrent.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/qbittorrent.sh && chmod +x /tmp/qbittorrent.sh && /tmp/qbittorrent.sh && rm -f /tmp/qbittorrent.sh
