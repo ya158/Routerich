@@ -5,7 +5,7 @@ opkg install qbittorrent
 opkg install luci-app-qbittorrent
 opkg install luci-i18n-qbittorrent-ru
 
-touch /etc/qbittorrent/qBittorrent/config/qBittorrent.conf
+md /etc/qbittorrent/qBittorrent/config & touch /etc/qbittorrent/qBittorrent/config/qBittorrent.conf
 echo '[Application]>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
 echo 'FileLogger\Path=/etc/qbittorrent/logs>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
 echo '>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
