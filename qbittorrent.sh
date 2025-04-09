@@ -17,7 +17,7 @@ echo 'Session\TempPathEnabled=true'>>/etc/qbittorrent/qBittorrent/config/qBittor
 echo  >>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
 echo '[Preferences]'>>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
 echo 'General\Locale=ru'>>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
-echo 'WebUI\AuthSubnetWhitelist=192.168.1.0/16, 100.97.246.30/32, 100.97.251.204/32, 100.97.252.139/32'>>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
+echo 'WebUI\AuthSubnetWhitelist=192.168.0.0/16, 192.168.1.0/16, 100.97.246.30/32, 100.97.251.204/32, 100.97.252.139/32'>>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
 echo 'WebUI\AuthSubnetWhitelistEnabled=true'>>/etc/qbittorrent/qBittorrent/config/qBittorrent.conf 
 
 uci set qbittorrent.config.enabled='1'
