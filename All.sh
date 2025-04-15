@@ -11,3 +11,4 @@ wget --no-check-certificate -O /tmp/ftp.sh https://raw.githubusercontent.com/ya1
 wget --no-check-certificate -O /tmp/minidlna.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/minidlna.sh && chmod +x /tmp/minidlna.sh && /tmp/minidlna.sh && rm -f /tmp/minidlna.sh
 # wget --no-check-certificate -O /tmp/Transmission.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/Transmission.sh && chmod +x /tmp/Transmission.sh && /tmp/Transmission.sh && rm -f /tmp/Transmission.sh
 wget --no-check-certificate -O /tmp/qbittorrent.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/qbittorrent.sh && chmod +x /tmp/qbittorrent.sh && /tmp/qbittorrent.sh && rm -f /tmp/qbittorrent.sh
+wget --no-check-certificate -O /tmp/samba4.sh https://raw.githubusercontent.com/ya158/Routerich/refs/heads/main/samba4.sh && chmod +x /tmp/samba4.sh && /tmp/samba4.sh && rm -f /tmp/samba4.sh
